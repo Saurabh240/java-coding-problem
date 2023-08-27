@@ -6,7 +6,7 @@ input : cricket
 roatation : 2
 output : etcrick
  */
-public class Problem2 {
+public class RotateString {
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder("cricket");
         int rotation =5;
