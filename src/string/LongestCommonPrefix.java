@@ -1,5 +1,5 @@
 package src.string;
-
+//IMP Find the Longest Common Prefix
 public class LongestCommonPrefix {
     //Using Horizontal Scanning
     public static String longestCommonPrefix(String[] strs) {

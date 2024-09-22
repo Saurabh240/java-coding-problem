@@ -1,5 +1,5 @@
 package src.string;
-
+// IMP Check if a String is a Palindrome
 public class ValidPalindrom {
     public static boolean isPalindrome(String s) {
         if(s.isEmpty()) {

@@ -1,5 +1,5 @@
 package src.string;
-
+//IMP Check if Two Strings are Anagrams
 public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
