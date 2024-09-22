@@ -1,4 +1,4 @@
-package array;
+package src.array;
 /*
 A string S of length L is passed as the input. The program must rotate the string S by N position in forward direction and print the result as the output.
 

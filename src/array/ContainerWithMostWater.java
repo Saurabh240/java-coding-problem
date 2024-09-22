@@ -1,5 +1,11 @@
+package src.array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ContainerWithMostWater {
-    public int maxArea(ArrayList<Integer> A) {
+    public static int maxArea(ArrayList<Integer> A) {
         int ans = 0  ;
         int low = 0; 
         int high = A.size() - 1 ;
@@ -20,5 +26,11 @@ public class ContainerWithMostWater {
             
         }
         return ans ; 
-    } 
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Integer> A = new ArrayList<>(Arrays.asList(1,4,7,2,9,5));
+        System.out.println("Max Area "+maxArea(A));
+
+    }
 }

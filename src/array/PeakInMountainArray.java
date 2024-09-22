@@ -1,4 +1,4 @@
-package array;
+package src.array;
 
 public class PeakInMountainArray {
     public static void main(String[] args) {

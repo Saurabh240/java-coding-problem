@@ -1,4 +1,4 @@
-package array;
+package src.array;
 
 public class RemoveDuplicateUsingTwoPointers {
     public static void main(String[] args) {
